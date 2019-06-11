@@ -1,7 +1,8 @@
 
 
-const URL = "aseaea" ;
-console.log(URL);
+//const url = "http://api.openweathermap.org/data/2.5/weather?q=" ;
+//const apikey = "461922f8c501577043bfdebd0e912a5b";
+
 
 
 // create a 
@@ -12,5 +13,11 @@ var $ = function(id) {
 
 
  $("#getValue").addEventListener("click", function(){
-     console.log($('#inputVal').value);
+   let location11 =  $('#inputVal').value;
+
+
+   
   });
+
+  console.log($('#inputVal').value);
+
